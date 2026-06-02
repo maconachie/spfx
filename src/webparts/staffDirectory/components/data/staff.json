@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Alice Nguyen",
+      "department": "Finance",
+      "isActive": true
+    },
+    { "id": 2, "name": "Bob Tremblay", "department": "IT", "isActive": false },
+    { "id": 3, "name": "Carol Smith", "department": "HR", "isActive": true },
+    {
+      "id": 4,
+      "name": "David Lee",
+      "department": "Marketing",
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "name": "Eve Johnson",
+      "department": "Sales",
+      "isActive": false
+    },
+    {
+      "id": 6,
+      "name": "Frank Brown",
+      "department": "Operations",
+      "isActive": true
+    },
+    {
+      "id": 7,
+      "name": "Grace Wilson",
+      "department": "Legal",
+      "isActive": true
+    },
+    {
+      "id": 8,
+      "name": "Hank Davis",
+      "department": "Customer Service",
+      "isActive": false
+    },
+    {
+      "id": 9,
+      "name": "Ivy Martinez",
+      "department": "Research",
+      "isActive": true
+    },
+    {
+      "id": 10,
+      "name": "Jack Taylor",
+      "department": "Development",
+      "isActive": true
+    }
+  ]
+}
