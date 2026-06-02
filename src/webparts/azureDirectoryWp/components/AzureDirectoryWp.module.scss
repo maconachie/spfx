@@ -32,3 +32,55 @@
     }
   }
 }
+
+.authCard {
+  border: 1px solid #d1d1d1;
+  border-radius: 6px;
+  padding: 1rem;
+  max-width: 420px;
+  background: #ffffff;
+}
+
+.authTitle {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.authText {
+  margin: 0 0 1rem;
+}
+
+.authError {
+  margin: 0 0 0.75rem;
+  color: #a4262c;
+}
+
+.authStatus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.authButton {
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 0.9rem;
+  background: #005a9e;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.authButton:hover {
+  background: #004578;
+}
+
+.authLinkButton {
+  border: none;
+  background: transparent;
+  color: #005a9e;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+}
