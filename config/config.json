@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json"
         }
       ]
+    },
+    "staff-directory-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/staffDirectory/StaffDirectoryWebPart.js",
+          "manifest": "./src/webparts/staffDirectory/StaffDirectoryWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js"
+    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
+    "StaffDirectoryWebPartStrings": "lib/webparts/staffDirectory/loc/{locale}.js"
   }
 }
