@@ -32,6 +32,12 @@
         "id": "9bdf9540-3b0b-4dbe-80e7-837f8f2323f3",
         "version": "1.0.0.0"
       }
+    ],
+    "webApiPermissionRequests": [
+      {
+        "resource": "Dynamics CRM",
+        "scope": "user_impersonation"
+      }
     ]
   },
   "paths": {

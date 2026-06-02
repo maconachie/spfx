@@ -17,11 +17,20 @@
           "manifest": "./src/webparts/staffDirectory/StaffDirectoryWebPart.manifest.json"
         }
       ]
+    },
+    "az-directory-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/azDirectory/AzDirectoryWebPart.js",
+          "manifest": "./src/webparts/azDirectory/AzDirectoryWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
-    "StaffDirectoryWebPartStrings": "lib/webparts/staffDirectory/loc/{locale}.js"
+    "StaffDirectoryWebPartStrings": "lib/webparts/staffDirectory/loc/{locale}.js",
+    "AzDirectoryWebPartStrings": "lib/webparts/azDirectory/loc/{locale}.js"
   }
 }
