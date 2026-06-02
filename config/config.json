@@ -17,11 +17,20 @@
           "manifest": "./src/webparts/staffDirectory/StaffDirectoryWebPart.manifest.json"
         }
       ]
+    },
+    "azure-directory-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/azureDirectoryWp/AzureDirectoryWpWebPart.js",
+          "manifest": "./src/webparts/azureDirectoryWp/AzureDirectoryWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
-    "StaffDirectoryWebPartStrings": "lib/webparts/staffDirectory/loc/{locale}.js"
+    "StaffDirectoryWebPartStrings": "lib/webparts/staffDirectory/loc/{locale}.js",
+    "AzureDirectoryWpWebPartStrings": "lib/webparts/azureDirectoryWp/loc/{locale}.js"
   }
 }
